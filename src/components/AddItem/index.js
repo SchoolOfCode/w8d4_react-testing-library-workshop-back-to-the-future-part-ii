@@ -21,7 +21,7 @@ function AddItem({ addToList, buttonText }) {
    }
 
    return (
-      <section>
+      <section data-testid="object">
          <input value={input} onChange={handleInput}></input>
          <button
             className="InputList"
